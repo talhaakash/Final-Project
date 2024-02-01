@@ -1,0 +1,44 @@
+/* GuestList.css */
+.add-guest-button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.add-guest-button:hover {
+  background-color: #4da8d1;
+}
+
+.guest-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.guest-item {
+  background: white;
+  margin-bottom: 1em;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-guest-button {
+  background-color: #ff5757;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.remove-guest-button:hover {
+  background-color: #ff3b3b;
+}

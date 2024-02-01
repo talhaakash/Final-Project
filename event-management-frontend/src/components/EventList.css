@@ -1,0 +1,29 @@
+/* EventList Component Styles */
+.event-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-item {
+  background: white;
+  margin-bottom: 1em;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-item h3 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.event-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.event-item strong {
+  font-weight: bold;
+}
+
+/* Add more styles as needed */

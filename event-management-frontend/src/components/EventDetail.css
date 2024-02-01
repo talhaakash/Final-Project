@@ -1,0 +1,51 @@
+/* EventDetail.css */
+.event-detail-container {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.event-info {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.event-description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.event-actions {
+  margin-top: 20px;
+}
+
+.edit-event-link {
+  text-decoration: none;
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.delete-event-button {
+  background-color: #ff5757;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-event-button:hover {
+  background-color: #ff3b3b;
+}

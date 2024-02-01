@@ -1,0 +1,32 @@
+/* Navigation.css */
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 20px; /* Adjust margin between navigation items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* Text color of navigation links (changed to white) */
+  font-weight: bold;
+  font-size: 18px; /* Adjust font size as needed */
+  background: none; /* Remove any background */
+  border: none; /* Remove any border */
+  padding: 0; /* Remove any padding */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.nav-link.active {
+  color: #ff5722; /* Active link color */
+}
